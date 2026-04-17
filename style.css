@@ -51,6 +51,16 @@ header h1{
     overflow: hidden;         /* Esconde el texto sobrante */
     border-right: 4px solid;
 }
+/* Debes definir los keyframes para que el navegador sepa qué hacer */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 850px; } /* Debe coincidir con tu width de arriba */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+    
 ul{
     text-align:center;
 }

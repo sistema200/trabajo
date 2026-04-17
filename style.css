@@ -31,7 +31,9 @@ ul{
 }
 @media (min-width: 768px){
 header h1{
-   
+    animation:
+        typing 4s steps(20) infinite,
+        blink .6s infinite;
     width:850px;
     margin: 20px auto;
     padding:8px 10px;

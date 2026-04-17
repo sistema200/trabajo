@@ -8,13 +8,9 @@ body{
 }
 header{
     width:auto;
-
 }
 @media (max-width: 767px){
 header h1{
-     animation:
-        typing 4s steps(20) infinite,
-        blink .6s infinite;
     margin:auto;
     padding:2px 10px;
     box-shadow:5px 5px 5px #0000a1;
@@ -24,9 +20,6 @@ header h1{
     color:white;
     text-align:center;
     text-shadow:5px 5px 2px rgba(0,0,0,0.5);
-    white-space: nowrap;      /* Evita saltos de línea */
-    overflow: hidden;         /* Esconde el texto sobrante */
-    border-right: 4px solid;
 }
 ul{
     text-align:center;
@@ -34,9 +27,6 @@ ul{
 }
 @media (min-width: 768px){
 header h1{
-    animation:
-        typing 4s steps(20) infinite,
-        blink .6s infinite;
     width:850px;
     margin: 20px auto;
     padding:8px 10px;
@@ -50,17 +40,7 @@ header h1{
     white-space: nowrap;      /* Evita saltos de línea */
     overflow: hidden;         /* Esconde el texto sobrante */
     border-right: 4px solid;
-}
-/* Debes definir los keyframes para que el navegador sepa qué hacer */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 850px; } /* Debe coincidir con tu width de arriba */
-}
-
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-    
+}   
 ul{
     text-align:center;
 }

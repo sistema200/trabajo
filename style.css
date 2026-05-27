@@ -60,3 +60,10 @@ a.estiloboton{
 a.estiloboton:hover{
     transform:scale(0.9) ;
 }
+p{
+    color:#fff;
+    margin-top:60px;
+    margin-left:25px;
+    font-size:30px;
+ }
+

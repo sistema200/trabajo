@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+sudo nala update
+sudo nala install -y curl build-essential pkg-config libfontconfig1-dev
+# Instalar Rust y Cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install --git https://github.com/asciinema/agg
+agg --version
